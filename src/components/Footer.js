@@ -13,7 +13,7 @@ export default function Footer() {
           <h1 className="footer-header">Navigation</h1>
           <ul className="footer-links">
             <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
+            <Link to="/about">About Us</Link>
             <a
               href={require("../assets/menu.webp")}
               target="_blank"
