@@ -1,10 +1,16 @@
 import './App.css';
+import Routing from "./components/Routing";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
-    <div className="App">
-      Homepage
-    </div>
+   <>
+   <Routing/>
+   <Navbar/>
+   <Footer/>
+   </>
   );
 }
 
